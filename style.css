@@ -1,0 +1,9 @@
+ul.navbar-nav li.active {
+    border-bottom: 5px solid red;
+}
+
+nav.navbar-inverse {
+    border-radius: 0 !important;
+    margin-top: 0px;
+    width: 100%;
+}
