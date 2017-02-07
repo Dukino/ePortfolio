@@ -1,9 +1,15 @@
-ul.navbar-nav li.active {
-    border-bottom: 5px solid red;
+/*
+Possible colors to use:
+   Eerie Black:     #1b1b1e
+   Ocean Boat Blue: #0076c6
+   Green (Munsell): #05b083
+*/
+
+* {
+    outline: none !important;
 }
 
-nav.navbar-inverse {
-    border-radius: 0 !important;
-    margin-top: 0px;
-    width: 100%;
+body {
+    background: #1b1b1e;
 }
+
