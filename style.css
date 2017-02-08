@@ -13,19 +13,33 @@ Possible colors to use:
     margin-top: 60px;
 }
 
+html, body {
+    height: 100%;
+}
+
+#wrap {
+    min-height: 100%;
+}
+
+#main {
+    overflow: auto;
+    padding-bottom: 100px;
+}
+
 body > .container-fluid {
     padding-top: 60px;
 }
 
 .footer {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    min-height: 60px;
+    position: relative;
     border-top: 1px solid black;
     padding-top: 15px;
     padding-bottom: 15px;
     text-align: center;
+    height: 170px;
+    margin-top: -170px;
+    clear: both;
+    padding-top: 15px;
 }
 
 .footer ul {
@@ -45,6 +59,10 @@ html * {
 
 nav {
     width: 100%;
+}
+
+.navbar {
+    border-radius: 0px;
 }
 
 .container-fluid, 
@@ -80,4 +98,12 @@ nav.navbar-inverse,
 h1 {
     border-bottom: 1px solid #ffffff;
     padding-bottom: 5px;
+}
+
+img.portrait {
+    overflow: hidden;
+    width: 200px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
 }
