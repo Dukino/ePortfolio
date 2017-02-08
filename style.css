@@ -9,7 +9,38 @@ Possible colors to use:
     outline: none !important;
 }
 
-body {
-    background: #1b1b1e;
+.content {
+    margin-top: 60px;
 }
 
+html * {
+    background: #1b1b1e;
+    color: #ffffff;
+    font-family: "Open Sans", "Lucida Sans Unicode", "Lucida Grande", Verdana, sans-serif;
+}
+
+nav {
+    width: 100%;
+}
+
+.navbar-nav li.active a {
+    border-bottom: 5px solid #05b083;
+}
+
+.navbar-nav li a:hover {
+    border-bottom: 5px solid #05b083;
+}
+
+.navbar-brand,
+.navbar-nav li a {
+    line-height: 60px;
+    height: 60px;
+    padding-top: 0;
+}
+
+nav.navbar-inverse,
+.navbar-brand,
+.navbar-nav li a {
+    background-color: #1b1b1e;
+    color: #ffffff !important;
+}
