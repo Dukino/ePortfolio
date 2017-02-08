@@ -13,6 +13,29 @@ Possible colors to use:
     margin-top: 60px;
 }
 
+body > .container-fluid {
+    padding-top: 60px;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    min-height: 60px;
+    border-top: 1px solid black;
+    padding-top: 15px;
+    text-align: center;
+}
+
+.footer ul {
+    padding-left: 0px;
+}
+
+.footer li {
+    list-style: none;
+    
+}
+
 html * {
     background: #1b1b1e;
     color: #ffffff;
@@ -23,12 +46,20 @@ nav {
     width: 100%;
 }
 
+.container-fluid, 
+.container-fluid *,
+.footer {
+    background: #000000;
+}
+
 .navbar-nav li.active a {
     border-bottom: 5px solid #05b083;
+    background: #000000 !important;
 }
 
 .navbar-nav li a:hover {
     border-bottom: 5px solid #05b083;
+    background: #000000 !important;
 }
 
 .navbar-brand,
@@ -41,6 +72,11 @@ nav {
 nav.navbar-inverse,
 .navbar-brand,
 .navbar-nav li a {
-    background-color: #1b1b1e;
+    background-color: #000000;
     color: #ffffff !important;
+}
+
+h1 {
+    border-bottom: 1px solid #ffffff;
+    padding-bottom: 5px;
 }
