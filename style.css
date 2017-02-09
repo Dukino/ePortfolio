@@ -8,19 +8,19 @@ Possible colors to use:
 * {
     outline: none !important;
 }
-
+/**
 .content {
     margin-top: 60px;
 }
-
+/**
 html, body {
     height: 100%;
 }
-
+/**
 #wrap {
-    min-height: 100%;
+    min-height: 91.5%;
 }
-
+/**/
 #main {
     overflow: auto;
     padding-bottom: 100px;
@@ -36,9 +36,6 @@ body > .container-fluid {
     padding-top: 15px;
     padding-bottom: 15px;
     text-align: center;
-    height: 170px;
-    margin-top: -170px;
-    clear: both;
     padding-top: 15px;
 }
 
@@ -54,7 +51,17 @@ body > .container-fluid {
 html * {
     background: #1b1b1e;
     color: #ffffff;
-    font-family: "Open Sans", "Lucida Sans Unicode", "Lucida Grande", Verdana, sans-serif;
+}
+
+nav *,
+h1, h2, h3, h4, h5, h6,
+.footer p,
+.footer {
+    font-family: "Arial" !important;
+}
+
+p {
+    font-size: 15px;
 }
 
 nav {
@@ -72,7 +79,7 @@ nav {
 }
 
 .navbar-nav li.active a {
-    border-bottom: 5px solid #05b083;
+    border-bottom: 5px solid #037054;
     background: #000000 !important;
 }
 
@@ -95,15 +102,48 @@ nav.navbar-inverse,
     color: #ffffff !important;
 }
 
-h1 {
-    border-bottom: 1px solid #ffffff;
-    padding-bottom: 5px;
-}
-
 img.portrait {
     overflow: hidden;
     width: 200px;
     height: auto;
     display: block;
     margin: 0 auto;
+}
+
+h2 {
+    border-bottom: 1px solid #ffffff;
+    padding-bottom: 20px;
+}
+
+.triplet {
+    padding: 0 15px;
+    min-height: 350px;
+}
+
+.triplet-content {
+    border: 1px solid #037054;
+    min-height: 300px;
+    margin-top: 25px;
+    padding: 15px;
+}
+
+.triplet h3,
+.triplet p {
+    text-align: center;
+}
+
+.center {
+    text-align: center;
+}
+
+.underline {
+    border-bottom: 1px solid #ffffff;
+}
+
+.nospace {
+    margin-top: -10px;
+}
+
+.main-heading {
+    font-size: 40px;
 }

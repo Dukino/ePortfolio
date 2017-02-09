@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <!DOCTYPE blog [
-        <!ELEMENT (title, icon, date, content)>
+        <!ELEMENT post    (title, icon, date, content)>
         <!ELEMENT title   (#PCDATA)>
         <!ELEMENT icon    (#PCDATA)>
         <!ELEMENT date    (#PCDATA)>
